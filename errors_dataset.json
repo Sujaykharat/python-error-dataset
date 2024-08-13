@@ -1,4 +1,4 @@
-error_details = {
+
         "division by zero": "You tried to divide a number by zero, which is not allowed in mathematics.",
         "list index out of range": "You tried to access an index that is outside the range of the list. Ensure the index is within the valid range.",
         "invalid syntax": "There's a syntax error in your code. Check for typos, misplaced operators, or other syntax issues.",
