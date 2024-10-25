@@ -157,3 +157,4 @@
     },
     "DependencyError": {
         "trigger_function": "import non_existent_module",
+ {
