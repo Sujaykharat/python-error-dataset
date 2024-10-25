@@ -103,10 +103,6 @@
         "trigger_function": "raise RuntimeError('This is a runtime error.')",
         "explanation": "An error that occurs during program execution. This is a broad category that includes various types of runtime issues."
     },
-    "TypeError": {
-        "trigger_function": "'string' + 1",
-        "explanation": "An operation or function was applied to an object of inappropriate type. Ensure that types are compatible with the operation being performed."
-    },
     "FileClosedError": {
         "trigger_function": "f = open('temp.txt', 'w'); f.close(); f.write('data')",
         "explanation": "An operation was attempted on a file that has already been closed. Ensure the file is open before performing operations on it."
@@ -160,35 +156,4 @@
         "explanation": "A general error occurred during the execution of the program. This can include issues like incorrect algorithm implementation."
     },
     "DependencyError": {
-        "trigger_function": "import non_existent_module",
-        "explanation": "A required dependency or module could not be found or is not installed. Ensure all dependencies are correctly installed."
-    },
-    "ResourceUnavailableError": {
-        "trigger_function": "open('/dev/random', 'rb')",
-        "explanation": "A required resource is unavailable or exhausted, such as a file, network connection, or hardware resource."
-    },
-    "InvalidConfigurationError": {
-        "trigger_function": "raise RuntimeError('Invalid configuration.')",
-        "explanation": "A configuration setting or parameter is incorrect or invalid, leading to unexpected behavior."
-    },
-    "InvalidStateError": {
-        "trigger_function": "raise RuntimeError('Invalid state.')",
-        "explanation": "An operation was attempted in an inappropriate or invalid state, such as trying to read from a closed file."
-    },
-    "PermissionDeniedError": {
-        "trigger_function": "raise PermissionError('Permission denied.')",
-        "explanation": "An operation was attempted without the necessary permissions, such as trying to write to a read-only file."
-    },
-    "NetworkTimeoutError": {
-        "trigger_function": "import socket; socket.gethostbyname('unknown_domain.com')",
-        "explanation": "A network operation has timed out, often due to connectivity issues or a slow server response."
-    },
-    "IOError": {
-        "trigger_function": "raise IOError('Input/Output error occurred.')",
-        "explanation": "An error occurred during an input/output operation, such as reading from or writing to a file."
-    },
-    "OutOfBoundsError": {
-        "trigger_function": "[0][1]",
-        "explanation": "An attempt was made to access an index or element outside the bounds of a list, array, or other data structure."
-    }
-}
+        "trigger_function": "import non_ex
