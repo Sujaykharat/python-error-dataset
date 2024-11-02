@@ -40,7 +40,7 @@
         "explanation": "You tried to import a module that could not be found or is not installed. Verify the module name and installation."
     },
     "IndentationError": {
-        "trigger_function": "exec('if True:\\nprint(\"Indentation Error\")')",
+        "trigger_function": "exec('if True:\\nprint(\"IndentationError\")')",
         "explanation": "There is an issue with the indentation of your code. Python relies on proper indentation to define blocks of code."
     },
     "MemoryError": {
