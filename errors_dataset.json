@@ -1,6 +1,5 @@
 {
-    
-    },
+
     "IndexError": {
         "trigger_function": "[1][2]",
         "explanation": "You tried to access an index that is outside the range of the list. Ensure the index is within the valid range."
