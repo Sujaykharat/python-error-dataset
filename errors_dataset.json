@@ -26,11 +26,7 @@
     "AttributeError": {
         "trigger_function": "None.some_method()",
         "explanation": "You tried to access or call an attribute or method that does not exist in the object. Check if the attribute or method name is correct."
-    },
-    "NameError": {
-        "trigger_function": "print(undefined_variable)",
-        "explanation": "You tried to use a variable or function name that has not been defined. Make sure the name is spelled correctly and is defined."
-    },
+    
     "FileNotFoundError": {
         "trigger_function": "open('non_existent_file.txt')",
         "explanation": "The file you're trying to open does not exist. Check the file path and ensure the file exists."
