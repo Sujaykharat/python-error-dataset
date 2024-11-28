@@ -1,7 +1,5 @@
 {
-    "ZeroDivisionError": {
-        "trigger_function": "1 / 0",
-        "explanation": "You tried to divide a number by zero."
+    
     },
     "IndexError": {
         "trigger_function": "[1][2]",
